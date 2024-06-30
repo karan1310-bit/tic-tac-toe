@@ -1,0 +1,35 @@
+body {
+    background-color: #cad2c5;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: #52796f;
+}
+
+#reset {
+    padding: 1rem;
+    background-color: black;
+    color: brown;
+    border-radius: 20%;
+}
